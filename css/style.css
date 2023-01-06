@@ -224,3 +224,43 @@ main {}
 .card-description {
     margin: 30px auto;
 }
+
+/* footer section style */
+footer {
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    height: 250px;
+    color: white;
+    padding: 50px 200px;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo-ling-part p {
+    margin: 15px 0px;
+}
+
+.fa-brands {
+    margin-right: 15px;
+}
+
+.footer-cart-title {
+    margin-bottom: 30px;
+}
+
+.footer-card p {
+    margin: 10px 0px;
+}
+
+.footer-underline {
+    margin-top: 40px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+}
