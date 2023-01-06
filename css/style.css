@@ -170,7 +170,7 @@ main {}
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: -40px 200px 30px 200px;
+    margin: -40px 200px 50px 200px;
     background-color: orangered;
     border-radius: 10px;
     padding: 30px;
@@ -192,4 +192,35 @@ main {}
 .number h1 {
     font-size: 40px;
     font-weight: 600px;
+}
+
+/* news section  style*/
+.news-section {
+    text-align: center;
+    margin: 40px 100px 30px 100px;
+}
+
+.news-card-section {
+    display: flex;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+.news-card {
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.news-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    margin-top: 20px;
+}
+
+.card-description {
+    margin: 30px auto;
 }
